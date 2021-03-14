@@ -22,9 +22,6 @@ router.get('/users',(req, res, next)=>{
         res.send('<li><h3>' + i + '</h3></li>');
     }
 });
-router.post('/add',(req, res, next)=>{
-    res.statusCode = 302;
-    res.setHeader('Location', '/create');
-});
+
 
 module.exports= router;
