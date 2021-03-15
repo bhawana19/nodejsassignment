@@ -1,0 +1,17 @@
+.a{
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+}
+
+.p{
+    font-family:serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+.b{
+    margin: 2px;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
