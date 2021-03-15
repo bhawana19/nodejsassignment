@@ -1,0 +1,26 @@
+.a{
+    width: 700px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.in-main p{
+    font-family: serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.b{
+    padding-left: 250px;
+}
+
+.c{
+    width: 150px;
+}
+
+.d,.e{
+    margin: 0;
+    font-family: Georgia;
+    width: 175px;
+}
