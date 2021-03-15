@@ -1,0 +1,30 @@
+<%- include('includes/head.ejs') %>
+
+    <link rel="stylesheet" href="/css/users.css">
+</head>
+<body>
+
+    <%- include('includes/nav.ejs') %>
+
+    <div class="a">
+
+    <% if (username.length > 0 ) { %>
+        <p>Information</p>
+        <div class="b">
+            <ul class="c">
+                <li class="d" style="list-style: square;">List of Usernames</li>
+                <% for(let user of usernames) { %>
+                <li class="e"><%= user %></li>
+     
+                <% } %>   
+            </ul>
+        </div>
+           
+    <% } else { %>   
+        <h1>No Username, create first</h1>
+    <% } %>  
+          
+    </div>    
+    
+</body>
+</html>
